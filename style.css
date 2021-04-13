@@ -1,0 +1,175 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #e6d96c;
+}
+header::after {
+    content: '' ;
+    display: table;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    border-style: solid;
+    border-color:black;
+    padding: 10px;
+}
+
+.navbar {
+    float:right;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 65px;
+    padding-bottom: 5px;
+
+    position: relative;
+}
+
+.navbar a {
+    color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    color: #000;
+}
+
+.navbar a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: coral;
+
+    position:absolute;
+    bottom: 0 ;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+img {
+    width: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-body {
+    padding: 10rem 1.5rem;
+    background-color: rgb(68, 221, 201);
+}
+
+.profile-title {
+    font-size: 60px;
+}
+
+.profile-subtitle {
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.aboutSec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-body{
+    height: 1000px;
+    background-color: rgb(144, 206, 247);
+}
+
+.about-title{
+    font-size: 60px;
+    padding-bottom: 218px;
+}
+
+.aboutParagraph{
+    padding: 14px 400px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.projectSec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-body{
+    height: 800px;
+    background-color: rgb(240, 145, 145);
+}
+
+.project-title{
+    font-size: 60px;
+    padding-top: 80px;
+
+}
+
+.projects{
+    padding-top: 30px;
+
+}
+
+
+.projects img{
+   width: 500px;
+   border-radius:30px;
+}
+
+.footer{
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.footer h1{
+    color: rgb(250, 250, 250);
+    font-size: 50px;
+}
+
+.footer a{
+    font-size: 30px;
+}
+
+
+
+  
