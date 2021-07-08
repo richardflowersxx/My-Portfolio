@@ -115,7 +115,7 @@ img {
 
 .about-title{
     font-size: 60px;
-    padding-bottom: 218px;
+    padding-bottom: 37px;
 }
 
 .aboutParagraph{
@@ -170,6 +170,15 @@ img {
     font-size: 30px;
 }
 
+.profileIcon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 460px;
+    
+}
 
+.icons{
+padding: 50px;
 
+}
   
