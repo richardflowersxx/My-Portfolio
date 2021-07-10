@@ -151,6 +151,7 @@ img {
 .projects img{
    width: 500px;
    border-radius:30px;
+   padding: 20px;
 }
 
 .footer{
@@ -182,3 +183,10 @@ padding: 50px;
 
 }
   
+.multi-projects{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+
